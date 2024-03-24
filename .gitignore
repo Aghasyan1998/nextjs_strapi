@@ -1,0 +1,26 @@
+.idea
+
+# General
+node_modules/
+*.log
+*.env
+.DS_Store
+
+# Frontend-specific ignores
+/frontend/.next/
+/frontend/out/
+/frontend/node_modules/
+/frontend/.vercel/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Backend-specific ignores
+/backend/.cache/
+/backend/build/
+/backend/node_modules/
+/backend/.tmp/
+/backend/extensions/
+/backend/.env
+/backend/public/uploads/
