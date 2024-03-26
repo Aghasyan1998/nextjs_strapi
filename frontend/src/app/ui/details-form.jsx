@@ -33,10 +33,6 @@ export default function DetailsForm() {
     const handleFormChange = useCallback(e => {
         const { name, value, type, checked } = e.target;
 
-        if (formState.success) {
-            formAction(initialFormState);
-        }
-
         setFormData(prevFormData => ({
             ...prevFormData,
             [name]: type === 'checkbox' ? checked : value,
